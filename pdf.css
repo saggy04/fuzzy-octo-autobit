@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #333;
+    text-align: left;
+    background: url('images/banner-bg.jpg');
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mt-50 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containerP{
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* min-width: 0; */
+    /* width: 100%; */
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: .5rem;
+    text-align: center
+}
+
+.card-title {
+    font-size: 22px
+}
+
+.invoice-color {
+    color: red !important
+}
+
+.card-header {
+    padding: .9375rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .02);
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+a {
+    text-decoration: none !important
+}
+
+.btn-light {
+    color: #333;
+    background-color: #fafafa;
+    border-color: #ddd
+}
+
+.header-elements-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap
+}
+
+
+/* ? */
+
+.Vanish{
+    display: none;
+}
+
+
+ /* NAVBAR */
+ .navbar{
+    background: rgb(136,130,255);
+    background: linear-gradient(90deg, rgba(136,130,255,0.5) 0%, rgba(0, 15, 153, 0.3) 30%, rgba(38, 219, 255, 0.4) 100%);
+}
+.topnav{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(0,0,0,.3) 0%, rgba(255,255,255,.3) 50%, rgba(0,0,0,.3) 100%);
+    /* font-size: .8rem; */
+}
+.InputH{
+    font-family: 'Acme', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(137,255,251);
+    background: linear-gradient(180deg, rgba(137,255,251,0.8253676470588236) 0%, rgba(76,83,147,0.8953956582633054) 41%, rgba(31,28,64,0.9654236694677871) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2.5rem;
+}
+
+.Input{
+    text-align: center;
+}
+
+.registration-form-text{
+    /* padding: 5px; */
+    margin-bottom: 1rem;
+    width: 40%;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 60;
+    border-color: black;
+    border-radius: 10px;
+    background: rgba(137, 255, 251, 0.8);
+    background: linear-gradient(98deg, rgba(137,255,251,0.25) 0%, rgba(0,57,108,0.45) 50%, rgba(0,10,108,0.45) 100%);
+    padding: 10px 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    overflow: hidden;
+    
+}
+.registration-form-btn{
+    background: rgb(137,255,251);
+    background: linear-gradient(180deg, rgba(137,255,251,0.40) 0%, rgba(0,57,108,0.45) 60%, rgba(0,10,108,0.8) 100%);
+    color: #ffffff;
+    padding: 15px 45px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 2s ease-in-out linear;
+    opacity: .95;
+    font-size: 20px;
+    overflow: hidden;
+    border: 50;
+    border-color: black;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+}
+
+.registration-form-btn:hover{
+    background: rgb(0,10,108);
+    border: 100;
+    padding: 13px 43px;
+    /* background: linear-gradient(180deg, rgba(0,10,108,0.8) 0%, rgba(0,57,108,0.45) 40%, rgba(137,255,251,0.4) 100%); */
+    transition: ease-in-out;
+    overflow: hidden;
+  }
+
+#Join{
+    max-width: 70%;
+    margin: auto;
+    background-color: rgba(224, 207, 207, 0.25);
+    box-shadow: 0 5px 35px rgba(0,0,0,.4);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding-bottom: 1.5rem;
+}
+
+#Ctitle{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: -0.045em;
+    font-variation-settings: 'wght' 400;
+    animation: letters 5s ease forwards;
+    overflow: hidden;
+}
+.YD{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;  
+    font-weight: 900;
+}
+
+.Chan{
+    margin-top: 1rem;
+}
+
+
+.title{
+    margin: auto;
+    font-weight: 900;
+}
+.Md{
+    /* padding-top: 10rem; */
+    font-size: .8rem;
+    font-weight: 700;
+}
+.nameF{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.certify{
+    /* margin-top: .5rem; */
+    font-size: .6rem;
+    text-align: justify;
+}
+.Academicdetails{
+    margin-left: .5rem;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.Detailsm{
+    font-size: .8rem;
+    font-weight: 500;
+}
+#Ad{
+    color: red;
+    font-size: .8rem;
+    font-weight: 700;
+}
+.Signature{
+    margin-top: 4rem;
+    font-size: .7rem;
+}
+
+
+/* footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(102, 0, 170, 0.10);
+    color: rgb(85, 85, 85);
+    overflow: hidden;
+}
+  
+#barCode1{
+    font-family: monospace;
+    text-align: center;
+    font-size: .9rem;
+    top:10px;
+    overflow: hidden;
+    padding: .1rem;
+}
+  
+#barCode2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 1rem;
+    top:7px;
+    overflow: hidden;
+    padding: .1rem;
+}
+#copyR8{
+    color:red;
+    font-weight: 500;
+    overflow: hidden;
+    padding: .1rem;
+}
+@media (min-width: 750px) {
+    .wmin-md-400 {
+        min-width: 400px !important
+    }
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2196f3
+}
+
+.btn-labeled>b {
+    position: absolute;
+    top: -1px;
+    background-color: blue;
+    display: block;
+    line-height: 1;
+    padding: .62503rem
+}

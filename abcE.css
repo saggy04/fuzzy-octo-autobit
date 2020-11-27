@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background: url('images/banner-bg.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /* NAVBAR */
+ .navbar{
+    background: rgb(136,130,255);
+    background: linear-gradient(90deg, rgba(136,130,255,0.5) 0%, rgba(0, 15, 153, 0.3) 30%, rgba(38, 219, 255, 0.4) 100%);
+  }
+  .topnav{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(0,0,0,.3) 0%, rgba(255,255,255,.3) 50%, rgba(0,0,0,.3) 100%);
+  }
+
+.container-fluid{
+    margin: auto;
+    padding: 0;
+    max-width: 90%;
+    margin-bottom: 1.5rem;
+    border-radius: 40px 40px 40px 40px;
+    /* box-shadow: 5px 7px 15px 1px blue; */
+    box-shadow: 0 10px 25px blue;
+    overflow: hidden;
+}
+.carousel-item img{
+    height: 70vh;
+    overflow: hidden;
+}
+.carousel-caption h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    overflow: hidden;
+}
+
+.title{
+    font-family: 'Acme', sans-serif;
+    color: rgb(170,255,137);
+    background: linear-gradient(0deg, rgba(188, 255, 162, 0.814) 0%, rgba(38,108,0,0.7693452380952381) 50%, rgba(38,108,0,0.953956582633054) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.textHeading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    overflow: hidden;
+    text-align: justify;
+}
+
+#year{
+    font-family: 'Black Ops One', cursive;
+    font-size: 2rem;
+    color: rgb(62, 0, 161);
+    padding: 2rem;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+.textBody{
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+    color: rgb(62, 0, 161);
+    padding-left: 10rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    text-align: justify;
+}
+.textSpeakers{
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 109, 109);
+    padding-left: 10rem;
+    padding-right: 8rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+#spk{
+    color: black;  
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(102, 0, 170, 0.10);
+    color: rgb(85, 85, 85);
+    overflow: hidden;
+}
+  
+#barCode1{
+    font-family: monospace;
+    text-align: center;
+    font-size: .9rem;
+    top:10px;
+    overflow: hidden;
+    padding: .1rem;
+}
+  
+#barCode2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 1rem;
+    top:7px;
+    overflow: hidden;
+    padding: .1rem;
+}
+#copyR8{
+    color:red;
+    font-weight: 500;
+    overflow: hidden;
+    padding: .1rem;
+}
+
+@media (max-width: 800px){
+    .textBody{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .textHeading{
+        text-align: center;
+    }
+    .textSpeakers{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media (max-width: 550px){
+    .container-fluid{
+        max-width: 100%;
+        box-shadow: 5px 7px 15px 1px rgba(0, 0, 255, 0.600);
+    }
+    .carousel-item img{
+        height: 40vh;
+        overflow: hidden;
+    }
+}

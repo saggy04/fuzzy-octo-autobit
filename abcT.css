@@ -1,0 +1,154 @@
+/* HTML CONTENT  */
+*{
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    box-sizing: border-box;
+}
+body{
+    background: url('images/banner-bg.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+ /* NAVBAR */
+ .navbar{
+  background: rgb(136,130,255);
+  background: linear-gradient(90deg, rgba(136,130,255,0.5) 0%, rgba(0, 15, 153, 0.3) 30%, rgba(38, 219, 255, 0.4) 100%);
+}
+.topnav{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(0,0,0,.3) 0%, rgba(255,255,255,.3) 50%, rgba(0,0,0,.3) 100%);
+}
+
+
+.title{
+    font-family: 'Acme', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(137,255,251);
+    background: linear-gradient(180deg, rgba(137,255,251,0.8253676470588236) 0%, rgba(76,83,147,0.8953956582633054) 41%, rgba(31,28,64,0.9654236694677871) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subTitle{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 2rem;
+    color: rgb(184,255,137);
+    background: linear-gradient(180deg, rgba(139, 252, 64, 0.65) 0%, rgba(48, 105, 31, 0.95) 41%, rgba(0,66,1,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.col-sm-3{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+  .container{
+    background: #231e39;
+    color: #ffffff;
+    border-radius: 6px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+  }
+  .cover-photo{
+    background: url('images/cardBg.jpg');
+    background-size: cover;
+    height: 120px;
+    width: 235px;
+    border-radius: 5px 5px 5px 0;
+  }
+  .profile{
+    height: 130px;
+    width: 130px;
+    border-radius: 28% 8% 28% 8%;
+    margin: 45px 0 0 -170px;
+    padding: 4px;
+    background: #292343;
+    box-shadow: 2px 3px 10px 0px rgba(189, 47, 255, 0.5);
+    transition: .5s ease;
+    z-index: 10;
+  }
+  .profile-name{
+    font-family: 'Courgette', cursive;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+  .about, .position{
+    margin-top: 0;
+    font-size: .8rem;
+    letter-spacing: 1px;
+  }
+  .position{
+      margin-top: 35px;
+      font-size: 1rem;
+      font-weight: 600;
+  }
+  .icons{
+    padding: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: .35s;
+  }
+  .icons a{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 1.4rem;
+      color: white;
+  }
+  .icons a:hover{
+    color: #03bfbc;
+  }
+  .icons:hover{
+    color: #03bfbc;
+  }
+  .profile:hover{
+    transition: .5s ease;
+    border-radius: 8% 28% 8% 28%; 
+  }
+  
+  
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(102, 0, 170, 0.10);
+    color: rgb(85, 85, 85);
+    overflow: hidden;
+}
+  
+#barCode1{
+    font-family: monospace;
+    text-align: center;
+    font-size: .9rem;
+    top:10px;
+    overflow: hidden;
+    padding: .1rem;
+}
+  
+#barCode2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 1rem;
+    top:7px;
+    overflow: hidden;
+    padding: .1rem;
+}
+#copyR8{
+    color:red;
+    font-weight: 500;
+    overflow: hidden;
+    padding: .1rem;
+}

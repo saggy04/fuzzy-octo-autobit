@@ -1,0 +1,166 @@
+/* HTML CONTENT  */
+*{
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    box-sizing: border-box;
+}
+body{
+    background: url('images/banner-bg.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+ /* NAVBAR */
+ .navbar{
+  background: rgb(136,130,255);
+  background: linear-gradient(90deg, rgba(136,130,255,0.5) 0%, rgba(0, 15, 153, 0.3) 30%, rgba(38, 219, 255, 0.4) 100%);
+}
+.topnav{
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(0,0,0,.3) 0%, rgba(255,255,255,.3) 50%, rgba(0,0,0,.3) 100%);
+}
+.Firstside{
+    width: 100%;
+    margin: auto;
+    background-image: url(images/AchiveBG.jpg);
+    opacity: 1;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Title{
+    font-family: 'Acme', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: .3rem;
+    margin-top: 1rem;
+    width: 95%;
+    margin-left: 1.6rem ;
+    margin-right: 1.5rem;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgb(62, 240, 77) 0%, rgb(12, 128, 33) 60%, rgba(19, 46, 16, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 10px 25px rgba(255,12,12,.3);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.box{
+    margin: 0 .5rem 1.5rem 1.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: .5rem;
+    /* background-color: rgba(255,255,255,0.7); */
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,.65) 7%, rgba(210,255,247,.65) 58%, rgba(78,225,255,.65) 100%);
+    justify-content: center;
+    box-shadow: 0 7px 20px rgba(255, 12, 12, 0.4);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.box p{
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(0,0,0,1);
+}
+
+.box :hover{
+    padding-top: .3rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+
+
+.col-sm-3 img{
+   width: 150px;
+   height: 150px;
+   margin: 1rem 0 1rem 2.5rem;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.65);
+   border-radius: 10px;
+}
+
+.Conti{
+    margin: 1rem 1.5rem 1rem 2.3rem;
+    padding: 12px 10px 1px 15px;
+    background-color: rgba(255,255,255,0.7);
+    justify-content: center;
+    box-shadow: 0 7px 20px rgba(255, 12, 12, 0.4);
+}
+
+.Conti p{
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+    text-align: justify;
+    color: rgba(0,0,0,1);
+}
+
+/* footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(102, 0, 170, 0.10);
+    color: rgb(85, 85, 85);
+    overflow: hidden;
+}
+  
+#barCode1{
+    font-family: monospace;
+    text-align: center;
+    font-size: .9rem;
+    top:10px;
+    overflow: hidden;
+    padding: .2rem;
+}
+  
+#barCode2{
+    font-family: monospace;
+    text-align: center;
+    font-size: 1rem;
+    top:7px;
+    overflow: hidden;
+    padding: .2rem;
+}
+#copyR8{
+    color:red;
+    font-weight: 500;
+    overflow: hidden;
+    padding: .2rem;
+}
+
+
+
+@media (max-width: 550px){
+    .Title{
+        font-size: 3rem;
+        text-align: center;
+        padding: .3rem;
+        margin-top: 1rem;
+        width: 90%;
+        /* margin: auto; */
+        margin-left: 1.2rem ;
+    }
+    .box{
+        width: 80%;
+        margin: 0 .5rem 1.5rem 2.5rem;
+        padding-top: 1.3rem;
+        padding-bottom: .5rem;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    *{
+        overflow-x: hidden;
+    }
+}
